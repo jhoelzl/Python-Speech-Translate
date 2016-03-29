@@ -1,13 +1,13 @@
 # Python-Speech-Translate
 
+-You will need to setup a subscription with Microsoft Translator. [Click Here] (https://www.microsoft.com/en-us/translator/default.aspx) to get started.
+-Speech API documentation can be [found here.] (https://docs.microsofttranslator.com/)
+
 ## Setup
 Samples are written for Python 2 and assume that `pip` is installed. Recent versions of Python 2.7 come with `pip`.
 
 The [`requests`](http://docs.python-requests.org/en/master/) package is required:
 pip install requests
-
-To run the sample:
-python [file].py
 
 ## Getting list of supported languages (languages.py)
 This sample demonstrates how to obtain the list of languages supported by the speech translation API.
@@ -28,3 +28,4 @@ python speech.py
 
 ## Getting Azure Data Market Token (adm.py)
 This class illustrates how to get an Azure Data Market token given a Client Id and Client Secret
+
