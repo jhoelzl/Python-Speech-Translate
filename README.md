@@ -7,9 +7,10 @@
 ## Setup
 Samples are written for Python 2 and assume that `pip` is installed. Recent versions of Python 2.7 come with `pip`.
 
-The [`requests`](http://docs.python-requests.org/en/master/) package is required:
+The [`requests`](http://docs.python-requests.org/en/master/) and ['websocket-client'](https://pypi.python.org/pypi/websocket-client) packages are required:
 
 pip install requests
+pip install websocket-client
 
 ## Getting list of supported languages (languages.py)
 This sample demonstrates how to obtain the list of languages supported by the speech translation API.
