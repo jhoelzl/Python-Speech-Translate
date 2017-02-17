@@ -17,7 +17,7 @@ This sample demonstrates how to obtain the list of languages supported by the sp
 
 python languages.py
 
-## Speech Translate (speech.py)
+## Speech Translate Audio File (speech.py)
 This sample demonstrates the use of Microsoft Translator Speech Translation API by translating an audio file
 
 Fill your Azure Data Market Credentials
@@ -31,6 +31,13 @@ Fill in the name of your audio file (PCM 16bit 16kHz mono WAV)
 audio_file = 'INSERT AUDIO FILE FULL PATH'
 
 python speech.py
+
+## Speech Translate Microphone Stream (speech_microphone.py)
+This sample demonstrates the use of Microsoft Translator Speech Translation API by translating the microphone audio stream using pyAudio
+
+Fill in your Azure Portal Subscirption-Key
+
+python speech_microphone.py
 
 ## Getting Azure Data Market Token (adm.py)
 This class illustrates how to get an Azure Data Market token given a Client Id and Client Secret
